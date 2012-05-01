@@ -1,8 +1,8 @@
 #!/bin/bash
 
 PREFIX="euca"
-export PYTHONPATH=./boto:./euca2ools-main
-export PATH=./euca2ools-main/bin:$PATH
+export PYTHONPATH=./boto:./euca2ools-2.0
+export PATH=./euca2ools-2.0/bin:$PATH
 echo "Euca2ools version in use:"
 euca-version
 

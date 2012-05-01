@@ -7,12 +7,12 @@
 	   	echo "euca2ools installation failed"
    		exit 1
 	    fi
-	    #export PYTHONPATH="$(pwd)/boto:$(pwd)/euca2ools-main"
-	    #export PATH="$(pwd)/euca2ools-main/bin:$PATH"
+	    #export PYTHONPATH="$(pwd)/boto:$(pwd)/euca2ools-2.0"
+	    #export PATH="$(pwd)/euca2ools-2.0/bin:$PATH"
         #else
         #    dir="../../$dir"
         #    echo "EUCA2OOLS DIR: $dir"
-        #    export PYTHONPATH=$dir/boto:$dir/euca2ools-main
-        #    export PATH=$dir/euca2ools-main/bin:$PATH
+        #    export PYTHONPATH=$dir/boto:$dir/euca2ools-2.0
+        #    export PATH=$dir/euca2ools-2.0/bin:$PATH
    
 	    #echo "EUCA2OOLS VERSION: $(euca-version)"
