@@ -58,9 +58,9 @@ if( $is_custom_image == 1 ){
 	print "\n";
 
 	if( $arch eq "64" ){
-		$image = "euca-ubuntu-9.04-x86_64/ubuntu.9-04.x86-64.img";
-		$image_vmlinuz = "euca-ubuntu-9.04-x86_64/kvm-kernel/vmlinuz-2.6.28-11-generic";
-		$image_initrd = "euca-ubuntu-9.04-x86_64/kvm-kernel/initrd.img-2.6.28-11-generic";
+		$image = "instance_images/precise-server/precise-server-cloudimg-amd64-ext3.img";
+		$image_vmlinuz = "instance_images/precise-server/kvm-kernel/vmlinuz-3.2.0-23-virtual";
+		$image_initrd = "instance_images/precise-server/kvm-kernel/initrd.img-3.2.0-23-virtual";
 	}else{
 		$image = "euca-ubuntu-9.04-i386/ubuntu.9-04.x86.img";
 		$image_vmlinuz = "euca-ubuntu-9.04-i386/kvm-kernel/vmlinuz-2.6.28-11-server";
@@ -73,9 +73,9 @@ if( $is_custom_image == 1 ){
 	print "\n";
 
         if( $arch eq "64" ){
-                $image = "euca-ubuntu-9.04-x86_64/ubuntu.9-04.x86-64.img";
-                $image_vmlinuz = "euca-ubuntu-9.04-x86_64/xen-kernel/vmlinuz-2.6.27.21-0.1-xen";
-                $image_initrd = "euca-ubuntu-9.04-x86_64/xen-kernel/initrd-2.6.27.21-0.1-xen";
+                $image = "instance_images/precise-server/precise-server-cloudimg-amd64-ext3.img";
+                $image_vmlinuz = "instance_images/precise-server/xen-kernel/vmlinuz-3.2.0-23-virtual";
+                $image_initrd = "instance_images/precise-server/xen-kernel/initrd.img-3.2.0-23-virtual";
         }else{
                 $image = "euca-ubuntu-9.04-i386/ubuntu.9-04.x86.img";
                 $image_vmlinuz = "euca-ubuntu-9.04-i386/xen-kernel/vmlinuz-2.6.24-19-xen";
