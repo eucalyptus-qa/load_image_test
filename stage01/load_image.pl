@@ -128,7 +128,7 @@ if( $last_m =~ /eki(.+)\s+eri(.+)\semi(.+)/ ){
 	print "Last Message : $last_m\n";
 
 	###	ADDED FOR CHANGE IN DEFUALT IMAGE LAUNCH PERMISSION 		102612
-	my $this_emi = "emi-" . $3;
+	my $this_emi = "emi" . $3;
 	$cmd = "euca-modify-image-attribute $this_emi --launch-permission --add all";
 	print "CHANGING IMAGE LAUNCH PERMISSION TO public\n";
 	print "COMMAND: $cmd\n\n";
