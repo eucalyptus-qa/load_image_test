@@ -1,3 +1,22 @@
+
+load_image_test
+===============
+
+## Description
+
+Upload an instance image to Walrus, which is to be used throughout the test
+
+## Procedure
+
+1. For UBUNTU, DEBIAN, FEDORA and RHEL6: install appropriate image for the architecture intended (ie i386 or 64) and the KVM hypervisor using the script doit.sh and doit.sh_i386.sh.
+2. For OPENSUSE, CENTOS, SLES, RHEL5.5: install appropriate image for the architecture intended (ie i386 or 64) and the XEN hypervisor using the script doit.sh and doit.sh_i386.sh.
+3. Check that the EMI ERI and EKI are presented to the user
+4. The doit.sh and doit_i386.sh scripts bundle the images as per doc then upload it
+
+
+
+<hr><hr><hr>
+
 # Eucalyptus Testunit Framework
 
 Eucalyptus Testunit Framework is designed to run a list of test scripts written by Eucalyptus developers.
